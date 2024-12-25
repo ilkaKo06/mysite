@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus Landing Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Logo">
+            </div>
+            <div class="menu">
+                <ul class="menu-item">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <button type="button" class="button">Request a quote</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-window">
+            <div class="main-window.text">
+                <div class="hey">
+                    <h1>Navigating the digital landscape for success</h1>
+                </div>
+                <div>
+                    <h3>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</h3>
+                </div>
+                <div>
+                     <button type="button" id="button-main">Book a consultation</button>
+                </div>
+            </div>
+            <div>
+                <img src="{{ url_for('static', filename='images/Illustration.svg') }}" alt="Illustration">
+            </div>
+        </div>
+        <div class="logo-long-logotypes">
+            <img src="{{ url_for('static', filename='images/Amazon.svg') }}" alt="Amazon">
+            <img src="{{ url_for('static', filename='images/dribble.svg') }}" alt="Dribble">
+            <img src="{{ url_for('static', filename='images/HubSpot.svg') }}" alt="HubSpot">
+            <img src="{{ url_for('static', filename='images/notion.svg') }}" alt="Notion">
+            <img src="{{ url_for('static', filename='images/Netflix.svg') }}" alt="Netflix">
+            <img src="{{ url_for('static', filename='images/zoom.svg') }}" alt="Zoom">
+        </div>
+        <div class="long-element">
+            <div class="label-long-element">
+                <h2>Services</h2>
+            </div>
+            <div class="text-long-element">
+                <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="button-card1">
+                <div class="text-block-card1">
+                    <div class="button-card1-text">
+                        <h5>Search engine</h5>
+                        <h6>optimization</h6>
+                    </div>
+                    <div class="card-link">
+                        <img src="{{ url_for('static', filename='images/IconArrow.svg') }}" alt="Arrow">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='images/Content.png') }}" alt="Content">
+                </div>
+            </div>
+            <div class = "button-card2">
+                <div class="text-block-card2">
+                    <div class="button-card2-text">
+                        <h5>Pay-per-click</h5>
+                        <h6>optimization </h6>
+                    </div>
+                    <div class="card-link"> 
+                        <img src="{{ url_for('static', filename='images/IconArrow.svg') }}" alt="Arrow">
+                        <a href="#">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src = "{{ url_for('static', filename='images/tokyo2.png') }}" alt="Tokyo2">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_nav_bar">
+            <div class="footer_nav_bar_menu">
+                <img src="{{ url_for('static', filename='images/logo2.svg') }}" class="logo2" alt="Footer Logo">
+                <ul class="menu" id="menu-footer">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_bar_info">
+                <div class="footer_nav_bar_info_left">
+                    <h4>Contact us:</h4>
+                    <p>Email: info@positivus.com</p>
+                    <p>Phone: 555-567-8901</p>
+                    <p>Address: 1234 Main St, Moonstone City, Stardust State 12345</p>
+                </div>
+                <div class="subscription">
+                    <form method="POST" action="{{ url_for('submit_email') }}" class="form">
+                        <input type="email" id="textInput" name="textInput" placeholder="Email" required>
+                        <input type="submit" value="Subscribe to news">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 Positivus. All Rights Reserved.</p>
+                <div class="privat-policy">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

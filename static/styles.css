@@ -1,0 +1,656 @@
+html{
+    width: 100%;
+} 
+
+p{
+    margin: 0px;
+}
+
+body{
+  
+    background: #FFFFFF; /* Устанавливает белый фон для страницы */
+    margin-top: 60px;
+    font-family: 'Space Grotesk', sans-serif; /* Устанавливает шрифт для ссылок */
+    font-style: normal; /* Устанавливает нормальный стиль шрифта */
+    font-weight: 400; /* Устанавливает нормальную жирность шрифта */
+    font-size: 20px; /* Устанавливает размер шрифта */
+}
+
+ul {
+    list-style-type: none; /* Убирает маркеры у списков */
+    margin: 0; /* Убирает внешние отступы */
+    padding: 0; /* Убирает внутренние отступы */
+}
+.hey h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+
+    color: #000000;
+    margin: 0;
+}
+.button-card1-text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.button-card2-text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.button-card1-text h5
+{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+    background: var(--Green, #B9FF66);
+    margin: 0;
+}
+.button-card1-text h6
+{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /*border-radius: 7px;*/
+    background: var(--Green, #B9FF66);
+    margin: 0;
+}
+.button-card2-text h5
+{
+    background-color: white;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0;
+    background:var(white);
+}
+.button-card2-text h6
+{
+    background-color: white;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /*border-radius: 7px;*/
+    background: var(white);
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--Green, #B9FF66);
+}
+h3
+{
+    /* Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation. */
+
+    width: 498px;
+    height: 112px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h4 {
+    margin: 0;
+}
+h6
+{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7px;
+    background: var(--Green, #B9FF66);
+    margin: 0;
+}
+h5
+{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7px;
+    background: var(--Green, #B9FF66);
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+
+.nav_bar {
+    display: flex; /* Использует Flexbox для навигационной панели */
+    flex-direction: row; /* Располагает дочерние элементы в строку */
+    justify-content: space-between; /* Распределяет пространство между дочерними элементами */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    /*padding: 0px 100px; /* Устанавливает внутренние отступы (100px слева и справа) */
+}
+
+.menu {
+    display: flex; /* Использует Flexbox для меню */
+    justify-content: right; /* Выравнивает элементы по центру */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    /*gap: 5%; /* Устанавливает расстояние между дочерними элементами (2%) */
+}
+
+.menu ul {
+    display: flex; /* Использует Flexbox для списка в меню */
+}
+
+.menu li {
+    margin: 0 20px; /* Устанавливает горизонтальные отступы для элементов списка */
+}
+
+.menu a {
+    font-family: 'Space Grotesk', sans-serif; /* Устанавливает шрифт для ссылок */
+    font-style: normal; /* Устанавливает нормальный стиль шрифта */
+    font-weight: 400; /* Устанавливает нормальную жирность шрифта */
+    font-size: 20px; /* Устанавливает размер шрифта */
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: #000000; /* Устанавливает цвет текста ссылок черным */
+    white-space: nowrap; /* Запрещает перенос текста на новую строку */
+}
+
+.button {
+    box-sizing: border-box; /* Устанавливает расчет размеров элемента с учетом padding и border */
+    display: flex; /* Использует Flexbox для кнопки */
+    align-items: flex-start; /* Выравнивает элементы по верхнему краю кнопки */
+    padding: 20px 35px; /* Устанавливает внутренние отступы (20px сверху и снизу, 35px слева и справа) */
+    border: 1px solid #191A23; /* Устанавливает границу кнопки */
+    border-radius: 14px; /* Устанавливает скругление углов кнопки */
+    font-family: 'Space Grotesk'; /* Устанавливает шрифт для текста кнопки */
+    font-style: normal; /* Устанавливает нормальный стиль шрифта */
+    font-weight: 400; /* Устанавливает нормальную жирность шрифта */
+    font-size: 20px; /* Устанавливает размер шрифта текста кнопки */
+    white-space: nowrap; /* Запрещает перенос текста на новую строку внутри кнопки */
+    color: #000000; /* Устанавливает цвет текста кнопки черным */
+    background: #FFFFFF; /* Устанавливает белый цвет фона кнопки */
+    margin-left: 20px;
+}
+
+.button:hover {
+    background-color: black; /* Изменяет цвет фона на черный при наведении на кнопку */
+    color: white; /* Изменяет цвет текста на белый при наведении */
+}
+
+.button:active {
+    background-color: #1f1f1f; /* Изменяет цвет фона на темный при нажатии на кнопку */
+    transform: scale(0.98); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #1f1f1f; /* Изменяет цвет границы на темный при нажатии */
+}
+.button-card1
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:50px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px #191A23;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width:600px;
+    height:310px;
+    background: var(--Grey, #F3F3F3);
+    transition: .2s;
+    align-items: center;
+}
+.text-block-card1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 93px;
+}
+.button-card1:hover
+{
+    transform: scale(0.99); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #1f1f1f; /* Изменяет цвет границы на темный при нажатии */
+}
+.button-card1:active
+{
+    transform: scale(0.92); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #F3F3F3;
+    box-shadow:0 1px 0 #191A23;
+    transition: .2s;
+}
+.card-link
+{
+    width: 164px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card-link a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.button-card2
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:50px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px #191A23;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width:600px;
+    height:310px;
+    background: var(--Green, #B9FF66);
+    transition: .2s;
+    align-items: center;
+}
+.text-block-card2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 93px;
+}
+.button-card2:hover
+{
+    transform: scale(0.99); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #1f1f1f; /* Изменяет цвет границы на темный при нажатии */
+}
+.button-card2:active
+{
+    transform: scale(0.92); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #F3F3F3;
+    box-shadow:0 1px 0 #191A23;
+    transition: .2s;
+}
+.main-window{
+    display: flex;
+    width: 1440px;
+    flex-direction: row;
+    margin: 70px 100px 70px 100px;
+    justify-content: space-between;
+
+}
+.main-window-text {
+    width: 531px;
+
+}
+.main-window p {
+    font-family: 'Space Grotesk'; /* Устанавливает шрифт для ссылок */
+    font-style: normal; /* Устанавливает нормальный стиль шрифта */
+    font-weight: 400; /* Устанавливает нормальную жирность шрифта */
+    font-size: 20px; /* Устанавливает размер шрифта */
+    line-height: 28px;
+    color: #000000; /* Устанавливает цвет текста ссылок черным */
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.long-element {
+    display: flex; /* Использует Flexbox для навигационной панели */
+    flex-direction: row; /* Располагает дочерние элементы в строку */
+    margin: 140px 100px 80px 100px;
+}
+#button-main{
+    box-sizing: border-box; /* Устанавливает расчет размеров элемента с учетом padding и border */
+    display: flex; /* Использует Flexbox для кнопки */
+    align-items: flex-start; /* Выравнивает элементы по верхнему краю кнопки */
+    padding: 20px 35px; /* Устанавливает внутренние отступы (20px сверху и снизу, 35px слева и справа) */
+    border: 1px solid #191A23; /* Устанавливает границу кнопки */
+    border-radius: 14px; /* Устанавливает скругление углов кнопки */
+    font-family: 'Space Grotesk'; /* Устанавливает шрифт для текста кнопки */
+    font-style: normal; /* Устанавливает нормальный стиль шрифта */
+    font-weight: 400; /* Устанавливает нормальную жирность шрифта */
+    font-size: 20px; /* Устанавливает размер шрифта текста кнопки */
+    white-space: nowrap; /* Запрещает перенос текста на новую строку внутри кнопки */
+    color: #FFFFFF; /* Устанавливает цвет текста кнопки черным */
+    background: #191A23; /* Устанавливает белый цвет фона кнопки */
+}
+
+#button-main:hover {
+    background-color: rgb(255, 255, 255); /* Изменяет цвет фона на черный при наведении на кнопку */
+    color: black; /* Изменяет цвет текста на белый при наведении */
+}
+#button-main:active {
+    background-color: #ffffff; /* Изменяет цвет фона на темный при нажатии на кнопку */
+    transform: scale(0.98); /* Уменьшает размер кнопки при нажатии для эффекта нажатия */
+    border-color: #1f1f1f; /* Изменяет цвет границы на темный при нажатии */
+}
+
+/*#button-card1-main
+{
+    display: flex;
+    width: 600px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border: 1px solid var(--Dark, #191A23);
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}*/
+
+
+.label-long-element {
+    padding: 0px 7px;
+    background: #B9FF66;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+/* At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include: */
+#int main
+{
+    width: 600.46px;
+    height: 515px;
+}
+.logo-long-logotypes
+{
+    display: flex;
+    width: 1440px;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+    mix-blend-mode: luminosity;
+}
+.f-sl-sb
+{
+    display: flex;
+    flex-direction: column ;
+}
+.text-long-element {
+    width: 580px;
+}
+.text-long-element p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    padding: 100px 100px 0px 0px;
+}
+.footer_nav_bar {
+
+    width: 1240px; 
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 55px 100px; /* Внутренние отступы для содержимого футера */
+    background: #191A23;
+    border-radius: 45px 45px 0 0;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_nav_bar_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo2{
+    width: 180px;
+    height: 29px;
+}
+
+#menu-footer a{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+#menu-footer li {
+    margin: 0 20px; /* Устанавливает горизонтальные отступы для элементов списка */
+}
+
+.logo-s {
+    padding: 0px 8px 0px 8px;
+}
+
+.footer_nav_bar_info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Разделяет содержимое на левую и правую стороны */
+    align-items: flex-start;
+    gap: 20px; 
+    margin: 20px 0;
+}
+
+.footer_nav_bar_info_left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Добавляет расстояние между строками контактной информации */
+}
+
+.contact-us {
+    color: white;
+    display: flex;
+    width: fit-content;
+    padding: 0px 7px;
+    background: #B9FF66;
+    border-radius: 7px;
+    margin-bottom: 27px;
+}
+
+.cards
+{
+    display: flex;
+    padding: 0px 100px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    display: flex;
+    width: 1440px;
+}
+.contact-us h4 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.info p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#last-str {
+    margin-bottom: 0;
+}
+
+.subscription {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    padding: 58px 40px;
+    gap: 20px;
+    background: #292A32;
+    border-radius: 14px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="email"] {
+    /* Field */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 22px 35px;
+    gap: 10px;
+
+    background: #292A32;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+
+
+    /* p */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    outline: none;
+    margin-right: 20px;
+
+}
+input[type="submit"] {
+    /* Button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 35px;
+    gap: 10px;
+    /* Green */
+    background: #B9FF66;
+    border-radius: 14px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    text-align: center;
+
+    /* Black */
+    color: #000000;
+    border-width: 0px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff; /* Устанавливает цвет текста ссылок черным */
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.privat-policy {
+    margin-left: 50px;
+}
+
+.privat-policy a {
+    color: #ffffff; /* Устанавливает цвет текста ссылок черным */
+}
+
